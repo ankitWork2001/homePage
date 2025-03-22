@@ -37,26 +37,29 @@ const Healing = () => {
       </div>
 
       {/* Emoji Blocks Grid */}
-      <div className="grid grid-cols-3 gap-6 relative">
-        <div className="bg-yellow-400 p-6 rounded-lg shadow-md flex items-center justify-center w-20 h-20 text-3xl animate-bounce">
-          😊
-        </div>
-        <div className="bg-yellow-400 p-6 rounded-lg shadow-md flex items-center justify-center w-20 h-20 text-3xl animate-bounce">
-          😀
-        </div>
-        <div className="bg-yellow-400 p-6 rounded-lg shadow-md flex items-center justify-center w-20 h-20 text-3xl animate-bounce">
-          😃
-        </div>
-        <div className="bg-yellow-400 p-6 rounded-lg shadow-md flex items-center justify-center w-20 h-20 text-3xl animate-bounce">
-          😆
-        </div>
-        <div className="bg-yellow-400 p-6 rounded-lg shadow-md flex items-center justify-center w-20 h-20 text-3xl animate-bounce">
-          😎
-        </div>
-        <div className="bg-yellow-400 p-6 rounded-lg shadow-md flex items-center justify-center w-20 h-20 text-3xl animate-bounce">
-          😍
-        </div>
-      </div>
+      <div className="grid grid-cols-3 gap-6 place-items-center relative">
+  {/* Row 1 */}
+  <div className="col-start-2 bg-yellow-400 p-6 rounded-lg shadow-md flex items-center justify-center w-20 h-20 text-3xl">
+    😊
+  </div>
+
+  {/* Row 2 */}
+  <div className="col-start-1 bg-yellow-400 p-6 rounded-lg shadow-md flex items-center justify-center w-20 h-20 text-3xl">
+    🤩
+  </div>
+  <div className="col-start-2 bg-yellow-400 p-6 rounded-lg shadow-md flex items-center justify-center w-20 h-20 text-3xl">
+    😆
+  </div>
+  <div className="col-start-3 bg-yellow-400 p-6 rounded-lg shadow-md flex items-center justify-center w-20 h-20 text-3xl">
+    😍
+  </div>
+
+  {/* Row 3 */}
+  <div className="col-start-2 bg-yellow-400 p-6 rounded-lg shadow-md flex items-center justify-center w-20 h-20 text-3xl">
+    😎
+  </div>
+</div>
+
     </div>
   </div>
 );
