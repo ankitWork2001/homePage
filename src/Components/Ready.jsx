@@ -4,7 +4,7 @@ import ready2 from "../assets/ready2.png";
 
 const Ready = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-orange-50 p-10 text-center">
+    <div className="flex flex-col justify-center items-center bg-orange-50 p-10 text-center m-20">
       {/* Title */}
       <h2 className="text-3xl font-bold">READY TO BEGIN?</h2>
       <p className="font-semibold italic text-gray-600">Just follow these easy steps:</p>
@@ -13,11 +13,12 @@ const Ready = () => {
       <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-10 w-full">
         {/* Mobile Mockup Image (Centered on Mobile) */}
         <div className="w-60 sm:w-72 md:w-80">
-          <img
-            src={ready1}
-            alt="Mobile Mockup"
-            className="w-full object-cover rounded-lg shadow-md"
-          />
+        <img
+          src={ready1}
+          alt="Mobile Mockup"
+          className="w-full object-cover mix-blend-multiply bg-transparent h-[60vh]"
+          style={{ backgroundColor: 'transparent' }}
+        />
         </div>
 
         {/* Steps (Stacked on Mobile) */}
